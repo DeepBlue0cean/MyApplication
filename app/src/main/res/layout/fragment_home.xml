@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Control"
+            android:textColor="#D84315"
+            android:textSize="25dp" />
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+    <com.google.android.material.circularreveal.CircularRevealGridLayout
+        android:layout_width="match_parent"
+        android:layout_height="609dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:rowCount="3">
+        <!--row 1-->
+        <!--  column 1-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_livingroom"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Living Room"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/livingroom" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <!--  column 2-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_garage"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Garage"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/garagedoor" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <!--row 2-->
+        <!--  column 1-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_bed1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bedroom 1"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bedroom" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <!--  column 2-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_bed2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bedroom 2"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/bedroom1" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <!--row 3->
+        <!- -  column 1-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_kitchen"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight="@dimen/mtrl_card_spacing"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kitchen"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/stove" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <!--  column 2-->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_door"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="@dimen/mtrl_card_spacing"
+            android:layout_marginTop="@dimen/mtrl_card_spacing"
+            android:layout_marginRight= "@dimen/mtrl_card_spacing"
+            style="@style/Widget.MaterialComponents.CardView"
+            android:outlineSpotShadowColor="@color/black"
+            app:strokeColor="@color/design_default_color_primary"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Door"
+                    android:textAlignment="center"
+                    android:textColor="#7C4DFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="133dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/door" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </com.google.android.material.circularreveal.CircularRevealGridLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="#D84315"
+            android:textSize="40dp" />
+    </RelativeLayout>
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
