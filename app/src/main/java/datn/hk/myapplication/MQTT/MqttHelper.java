@@ -120,7 +120,7 @@ public class MqttHelper {
                     Log.i("pub", "Topics=" + mqttToken.getTopics());
 
                     MqttMessage message = new MqttMessage("Hello, I am Android Mqtt Client.".getBytes());
-                    message.setQos(2);
+                    message.setQos(activity_kitchen);
                     message.setRetained(false);
 
                     try {

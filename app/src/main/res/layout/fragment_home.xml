@@ -71,7 +71,7 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
-        <!--  column 2-->
+        <!--  column activity_kitchen-->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_garage"
             android:layout_width="0dp"
@@ -113,7 +113,7 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
-        <!--row 2-->
+        <!--row activity_kitchen-->
         <!--  column 1-->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_bed1"
@@ -156,7 +156,7 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
-        <!--  column 2-->
+        <!--  column activity_kitchen-->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_bed2"
             android:layout_width="0dp"
@@ -241,7 +241,7 @@
             </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
-        <!--  column 2-->
+        <!--  column activity_kitchen-->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_door"
             android:layout_width="0dp"

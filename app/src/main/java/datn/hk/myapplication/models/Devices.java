@@ -15,7 +15,8 @@ import lombok.ToString;
 public class Devices {
 
     private boolean status;
-    private String turnOn, turnOff;
+    private String turnOn;
+    private String turnOff;
 
 
 }
