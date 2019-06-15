@@ -14,18 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activity.Test" />
         <activity android:name=".Activity.DoorActivity" />
-        <activity android:name=".Activity.KitchenActivity" />
+        <activity android:name=".Activity.Kitchen"/>
         <activity android:name=".Activity.Bedroom2Activity" />
         <activity android:name=".Activity.Bedroom1Activity" />
         <activity android:name=".Activity.GarageActivity" />
         <activity android:name=".Activity.LinvingRoomActivity" />
-        <activity android:name=".Activity.LoginActivity"/>
+        <activity android:name=".Activity.LoginActivity" />
         <activity
             android:name=".Activity.HomeControl"
             android:label="@string/title_activity_home_control" />
-        <activity
-            android:name=".Activity.Signup"/>
+        <activity android:name=".Activity.Signup" />
         <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
