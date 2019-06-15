@@ -13,7 +13,7 @@ android {
     defaultConfig {
         applicationId "datn.hk.myapplication"
         minSdkVersion 26
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.Test.runner.AndroidJUnitRunner"
@@ -42,7 +42,7 @@ dependencies {
 
     testImplementation 'junit:junit:4.13-beta-3'
     //androidTestImplementation 'com.android.support.Test:runner:1.0.2'
-     //androidTestImplementation 'com.android.support.Test.espresso:espresso-core:3.0.2'
+    //androidTestImplementation 'com.android.support.Test.espresso:espresso-core:3.0.2'
 
     // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.8'
